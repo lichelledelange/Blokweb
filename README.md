@@ -20,9 +20,11 @@ Lichelle de Lange
 
   #### Je startniveau:
  Blauw ! 
+ Je vindt code lastig. Je oefent buiten de vakken niet vaak. 
+ Met hulp lukt het meestal wel.
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+ Responsive 
  
 </details>
 
@@ -36,15 +38,15 @@ Lichelle de Lange
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://upfront.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/homepage.jpg" width="375px" alt="Upfront Homepa">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/University.jpg" width="375px" alt="Upfront Univeristy page">
  
 </details>
 
