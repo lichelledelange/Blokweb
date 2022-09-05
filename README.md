@@ -42,13 +42,13 @@ Lichelle de Lange
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/homepage.jpg" width="375px" alt="Upfront Homepa">
+  <img src="readme-images/Homepage.jpg" width="375px" alt="Upfront Homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
   <img src="readme-images/University.jpg" width="375px" alt="Upfront Univeristy page">
  
-</details>
+</details>s
 
 
 
