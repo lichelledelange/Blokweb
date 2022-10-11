@@ -2,16 +2,9 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-button, summary {
-	cursor: pointer;
-}
-
-
-
-
+	box-sizing:border-box;  
+  }
+  
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -19,21 +12,76 @@ button, summary {
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#000000;
+}
+
+img{
+	max-width: 3em;
+	height: auto;
+}
+
+body{
+	background: black;
+}
+ 
+.banner {
+	height: 4em;
+	width: auto;
+	background-color: white;
+	border: green;
+	border-radius: 1em;
+	font-family: 'Inconsolata';
+	color: black;
+}
+/*font style*/
+
+h2 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+}
+
+p, a {
+	font-family: 'Inconsolata';
+	color: white;
+}
+
+h3, h4 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+}
+
+/*Carrousel ????? */
+section:nth-of-type(1){
+	flex-shrink: 8em;
+
+	display: flex;
+	flex-direction: column;
+
+	scroll-snap-align: center;
+}
+
+Section:nth-of-type(1) h2,
+Section:nth-of-type(1) p,
+section:nth-of-type(1) {
+	margin: 12m;
 }
 
 
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
-body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+/*Image banner */
+.image-banner1 {
+	max-width: 100%;
+  	height: 450px;	
 }
 
+/*Image banner */
+.image-banner-button {
+	color: black;
+	background-color: white;
+	padding: 16px 40px;
+	display: inline-block;
+	font-size: 12px;
+}
