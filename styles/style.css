@@ -1,10 +1,17 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
+/* *, *::after, *::before {
 	box-sizing:border-box;  
   }
-  
+   */
+
+   /* Alle content begint bovenaan */
+* {
+	margin: 0;
+	padding: 0;
+}
+
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -13,28 +20,96 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#000000;
+	--color-header-link:#000; 
+	--color-main-bg-color:#fff;
 }
 
-img{
-	max-width: 3em;
+/* ------------------ Img --------------------- */
+
+img {
 	height: auto;
+	width: 3em;
+}
+/* ------------------ Main --------------------- */
+
+main {
+	background-color: var(--color-main-bg-color);
+	border-radius: 1em 1em 0em 0em;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
+/* ------------------ Section --------------------- */
+section {
+	position: relative;
+	margin: 1em;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+section > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 1em;
+	object-fit: cover; 
+}
+
+section:first-of-type {
+	height: 55em;
+}
+
+section * {
+	position: relative;
+	z-index: 1;
+}
+
+section > a {
+	background-color: var(--color-main-bg-color);
+	padding: 1em;
+	margin: 1em 0em;
+	width: 7em;
+	border-radius: 1em;
+	color: var(--color-text);
+	text-align: center;
+	font-weight: 900;
+	text-decoration: none;
+}
+/* ------------------ Body --------------------- */
 body{
 	background: black;
 }
- 
-.banner {
-	height: 4em;
-	width: auto;
-	background-color: white;
-	border: green;
-	border-radius: 1em;
-	font-family: 'Inconsolata';
-	color: black;
-}
-/*font style*/
+/* ------------------ Header --------------------- */
 
+header > a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3em;
+	background-color: white;
+	border-radius: 0em 0em 1em 1em; 
+	color: var(--color-header-link);
+	border: 0.2em solid green;
+}
+
+header > ul {
+	display:flex;
+	justify-content: space-between;
+}
+
+/* ------------------ Button --------------------- */
+
+
+button {
+	background-color: unset;
+}
+
+/* ------------------ Font --------------------- */
 h2 {
 	font-family: futura-pt, sans-serif;
 	font-weight: 700;
@@ -54,7 +129,7 @@ h3, h4 {
 	color: white;
 }
 
-/*Carrousel ????? */
+/* ------------------ Carrousel? --------------------- */
 section:nth-of-type(1){
 	flex-shrink: 8em;
 
@@ -64,24 +139,7 @@ section:nth-of-type(1){
 	scroll-snap-align: center;
 }
 
-Section:nth-of-type(1) h2,
-Section:nth-of-type(1) p,
-section:nth-of-type(1) {
-	margin: 12m;
-}
 
 
-/*Image banner */
-.image-banner1 {
-	max-width: 100%;
-  	height: 450px;	
-}
 
-/*Image banner */
-.image-banner-button {
-	color: black;
-	background-color: white;
-	padding: 16px 40px;
-	display: inline-block;
-	font-size: 12px;
-}
+
