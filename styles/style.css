@@ -130,14 +130,15 @@ h3, h4 {
 }
 
 /* ------------------ Carrousel? --------------------- */
-section:nth-of-type(1){
+/* section:nth-of-type(1){
 	flex-shrink: 8em;
 
 	display: flex;
 	flex-direction: column;
 
 	scroll-snap-align: center;
-}
+} */
+
 
 
 
