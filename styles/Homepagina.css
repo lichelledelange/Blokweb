@@ -1,0 +1,52 @@
+
+/* ------------------ Button --------------------- */
+
+
+button {
+	background-color: unset;
+	border-style: none;
+}
+
+/* ------------------ Section --------------------- 
+section {
+	position: relative;
+	margin: 1em;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+section > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 1em;
+	object-fit: cover; 
+	
+}
+
+section:first-of-type {
+	height: 55em;
+}
+
+section * {
+	position: relative;
+	z-index: 1;
+}
+
+section > a {
+	background-color: var(--color-main-bg-color);
+	padding: 1em;
+	margin: 1em 0em;
+	width: 7em;
+	border-radius: 1em;
+	color: var(--color-text);
+	text-align: center;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+*/

@@ -24,7 +24,8 @@ Lichelle de Lange
  Met hulp lukt het meestal wel.
 
   #### Je focus:
- Responsive 
+ Responsive.
+ Ik wil ook kijken of het mij lukt om surface toe te passen op mijn website voor een srp punt. 
  
 </details>
 
@@ -153,7 +154,8 @@ Home pagina
 </details>
 
 
-
+- Ik heb gekozen voor een website van Upfront, een website waar ik veel mee heb omdat ik naar de podcast van deze jongens luister en volledig achter hun missie en visie sta. Een website waar ik enthousiast over ben zal mij moeten helpen door dit vak heen te komen. Over het maken van de breakdown schetsen voel ik mij onzeker. Ik denk dat ik nu al de mist in ga met de indeling van de website. 
+Ik begin vol goedemoed en volgens mij gaat het wel goed. 
 
 
 ## Voortgang 1 (week 2)
@@ -162,11 +164,12 @@ Home pagina
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik heb mijn breakdown schetsen af en redelijk uitgebreid getekend. Ik heb voor tijdens de meeting vragen over mijn schetsen en of ik de indeling van de door mij gekozen website; Upfront juist heb ingedeeld. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  Nensi, Syarah, Cesar, Lindsey & Lichelle 
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -177,11 +180,8 @@ Home pagina
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- Ik had nog geen code maar ik had vragen over mijn breakdownschetsen. We zijn gezamelijk door mijn website en de website van Syarah heen gelopen.
+Ik was goed opweg, hier en daar wat aanpassingen. De rest had zijn/haar html al gemaakt, ik helaas nog niet. 
 
 </details>
 
@@ -195,12 +195,13 @@ Home pagina
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Het ging niet goed. Ik struggle ontzettend met de code. De HTML heb ik redelijk opgezet, maar het lukt niet met de css. 
+  Ik heb alles verwijderd en ga opnieuw beginnen. In vergelijking tot de rest loop ik zo ver achter. In het voortgang gesprek met mijn groepje
+  en Jeffrey breek ik.. Beetje genânt maar ik had mijn emoties niet meer in de hand op dat moment. Ik stop veel uren in dit vak, en tijdens de lessen lijkt alles zo logisch maar zodra ik het zelf moet doen en achter die laptop ga zitten.. ERROR 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-Nensi, Syarah, Cesar, Lindsey & Lichelle 
+
 
   | student 1  
 ik ben zelf student 1. Ik ben nog niet begonnen met coderen. 
@@ -258,17 +259,14 @@ Wel heb ik mijn breakdown schetsen af en deze wil ik graag bespreken met Sanne. 
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Het gaat stukken beter. Ik ben er nog niet maar er beginnen wat kwartjes te vallen. 
+  Met dank aan Jeffrey die de tijd heeft genomen om wekelijks met mij te zitten en te kijken naar mijn code. Ik ben al ver met de eerste pagina en ben begonnen aan mijn 2e pagina. Waar ik over wil vragen of er dingen uitgehaald kunnen worden. Ik heb mijn website onderschat, ik dacht dat deze iets simpeler zou zijn als dat deze eigenlijk is. 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+- Ik wil graag bespreken of ik mijn detailpagina wat kan indunnen of een andere pagina mag namaken omdat ik de detail pagina nogal complex vindt. 
+- Ook wil ik het hebben over mijn menu, waar plaats ik de inhoud van mijn navigatie in mijn html?  
 
 
   ### Verslag van meeting
