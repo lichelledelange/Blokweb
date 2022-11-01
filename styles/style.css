@@ -11,6 +11,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	box-sizing: border-box;
 }
 
 
@@ -40,12 +41,20 @@ img {
 main {
 	background-color: var(--color-main-bg-color);
 	border-radius: 1em 1em 0em 0em;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 }
 
-/* ------------------ Section --------------------- */
+main nav:nth-of-type(1){
+	margin-top: 7em;
+}
+
+main>section:nth-of-type(1){
+	height: 25em;
+	margin-top: 15em;
+}
+
+/* ------------------ Section met afbeeldingen --------------------- */
 section {
 	position: relative;
 	margin: 1em;
@@ -64,10 +73,6 @@ section > img {
 	border-radius: 1em;
 	object-fit: cover; 
 	
-}
-
-section:first-of-type {
-	height: 55em;
 }
 
 section * {
@@ -91,6 +96,24 @@ body{
 	background-color: var(--color-background);
 }
 /* ------------------ Header --------------------- */
+/* Bron transisition menu https://makingcss.com/transition */
+header {
+	position: fixed;
+    height: 14em;
+    border-radius: 1em;
+    background-color: var(--color-background);
+    width: 100%;
+    z-index: 10000;
+	overflow: hidden;
+	-webkit-transition: all 0.5s 0s ease;
+	-moz-transition: all 0.5s 0s ease;
+	-o-transition: all 0.5s 0s ease;
+	transition: all 0.5s 0s ease;
+}
+
+header.open {
+	height: 37em;
+}
 
 header > a {
 	display: flex;
@@ -103,15 +126,41 @@ header > a {
 	border: 0.2em solid green;
 }
 
-header > ul {
+header > ul:nth-of-type(1) {
 	display:flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
-header ul img {
+header > ul:nth-of-type(1) img {
 	height: auto;
 	width: 1.8em;
 	margin: 1em;
+}
+
+header > ul:nth-of-type(1) li:nth-of-type(2) img {
+	width: 3em;
+	margin-top: .5em;
+}
+header > ul:nth-of-type(1) li:nth-of-type(3) button img {
+	width: 2.35em;
+}
+
+header.open section:nth-of-type(1){
+	top: -7em;
+}
+
+header section:nth-of-type(1){
+	padding: 0;
+	margin: 0;
+	height: auto;
+	top: -1000em;
+	background-color: var(--color-background);
+}
+
+header section:nth-of-type(1) ul {
+	padding-left: 1em;
+
 }
 
 
@@ -121,7 +170,8 @@ header ul img {
 button {
 	background-color: unset;
 	border-style: none;
-}
+}*
+
 
 /* ------------------ Font --------------------- */
 h2 {
@@ -143,7 +193,33 @@ h3, h4 {
 	color: white;
 }
 
+/* ------------------ Menu --------------------- */
+
+section ul li {
+	display: flex;
+	position: relative;
+	justify-content: flex-start;
+	background-color: var(--color-background);
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* tekst in menu  */
+section ul li a{
+	font-size: 1.25em;
+	margin:0.3em 0;
+	text-decoration: none;
+}
+
+section ul li button {
+	position:absolute;
+
+}
+
+
 /* ------------------ Carrousel met underlining --------------------- */
+/* Bron: samen met Jeffrey gemaakt :) */
+
 nav ul {
     background-color: var(--color-text-carrousel);
     display: flex;
