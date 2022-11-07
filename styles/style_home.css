@@ -1,0 +1,335 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+/* *, *::after, *::before {
+	box-sizing:border-box;  
+  }
+   */
+
+   /* Alle content begint bovenaan */
+   * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#242424;
+	--color-header-link:#000; 
+	--color-main-bg-color:#fff;
+	--color-black-highlight:#0f0e0b;
+	--color-text-footer:#fff;
+	--color-text-endoffooter:#808080;
+	--color-text-carrousel:#e2e2e2;
+	--color-border-carousel:#f0ebe1;
+}
+
+/* ------------------ Img --------------------- */
+
+img {
+	height: auto;
+	width: 3em;
+}
+
+/* ------------------ Main --------------------- */
+
+main {
+	background-color: var(--color-main-bg-color);
+	border-radius: 1em 1em 0em 0em;
+	display: flex;
+	flex-direction: column;
+}
+
+
+@media screen and (min-width: 767px) {
+	main {
+		align-items: center;
+	}
+}
+
+main nav:nth-of-type(1){
+	margin-top: 7em;
+}
+
+main>section:nth-of-type(1){
+	height: 25em;
+	margin-top: 15em;
+}
+
+/* ------------------ Section met afbeeldingen --------------------- */
+section {
+	position: relative;
+	margin: 1em;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 767px) {
+	section {
+		min-width: 45em;
+	}
+}
+
+section > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 1em;
+	object-fit: cover; 
+	
+}
+
+section * {
+	position: relative;
+	z-index: 1;
+}
+
+section > a {
+	background-color: var(--color-main-bg-color);
+	padding: 1em;
+	margin: 1em 0em;
+	width: 7em;
+	border-radius: 1em;
+	color: var(--color-text);
+	text-align: center;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+
+/* ------------------ Body --------------------- */
+body{
+	background-color: var(--color-background);
+}
+
+
+
+/* ------------------ Font --------------------- */
+h2 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+}
+
+p, a {
+	font-family: 'Inconsolata';
+	color: white;
+}
+
+h3, h4 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+}
+
+/* ------------------ Menu --------------------- */
+
+ header section ul li {
+	display: flex;
+	position: relative;
+	justify-content: flex-start;
+	background-color: var(--color-background);
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* tekst in menu  */
+header section ul li a{
+	font-size: 1.25em;
+	margin:0.3em 0;
+	text-decoration: none;
+}
+
+header section ul li button {
+	position:absolute;
+
+}
+
+
+/* ------------------ Navigatie carrousel met underlining --------------------- */
+/* Bron: samen met Jeffrey gemaakt :) */
+
+nav ul {
+    background-color: var(--color-text-carrousel);
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    text-align: center;
+    gap: 1em;
+    padding: 1em 0;
+    border-radius: 1em;
+}
+
+nav ul li {
+    width: 5em;
+    flex-shrink: 0;
+	position: relative;
+}
+
+
+ul ul li a{
+	position:relative;
+	display:inline-block;
+	text-decoration:none;
+}
+
+a::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	height: .2em;
+	background-color: currentColor;
+
+	transform-origin: left;
+	transform: scaleX(0%);
+	transition: transform .3s;
+}
+
+a:hover::after {
+	transform:scaleX(100%);
+	transition: right;
+}
+
+
+nav ul li a {
+    font-family: 'futura-pt';
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+/* ------------------ Carousel --------------------- */
+
+
+main section:nth-of-type(2){
+	background-color: var(--color-main-bg-color);
+}
+
+main section:nth-of-type(2) a, h2:nth-of-type(2) {
+	color: var(--color-text);
+	font-family: futura-pt;
+	text-decoration: none;
+}
+
+main section:nth-of-type(2) h3 {
+    color: var(--color-text);
+	order: 2;
+	margin-top: 0.5em;
+}
+
+main section:nth-of-type(2) ul li a h3:nth-of-type(2) {
+	color: var(--color-text);
+}
+
+main section:nth-of-type(2) ul {
+	display: flex;
+	overflow: scroll;
+	gap: 1em;
+}
+
+main section:nth-of-type(2) ul li {
+	width: min(100%,18em);
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	border-radius: 1em 1em 0 0;
+    border-top: 0.1em solid var(--color-border-carousel);
+	border-left: 0.1em solid var(--color-border-carousel);
+	border-right: 0.1em solid var(--color-border-carousel);
+}
+
+main section:nth-of-type(2) ul li img {
+	display: block;
+	width: 100%;
+	order: 1;
+	/* FONT-VARIANT: "JIS83";
+	FONT-VARIANT: "JIS83"; */
+	border-radius: 1em 1em 0 0;
+}
+
+main section:nth-of-type(2) ul li > p{
+	display: flex;
+	font-family: Inconsolata;
+	color: var(--color-text);
+	font-size: 0.8em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-left: 0.5em;
+	background-color: var(--color-main-bg-color);
+	height: 1em;
+	width: auto;
+	order: 3;
+	flex-direction: row-reverse;
+    justify-content: left;
+}
+ main section:nth-of-type(2) ul li > p img{
+	 width: 0.9em;
+	 height: 0.9em;
+ }
+
+ main section:nth-of-type(2) ul li select {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	border: none;
+	margin-top: 0.5em;
+	margin-bottom: 0.6em;
+	font-family: Inconsolata;
+	font-size: 0.9em;
+	order: 4;
+}
+
+section >ul li button {
+    order: 5;
+	width: 100%;
+	height: 3.3em;
+	background-color: var(--color-black-highlight);
+	border-radius: 0 0 1em 1em;
+	font-family: 'futura-pt';
+	color: var(--color-text-footer);
+	font-size: 1em;
+}
+
+section >ul li button p {
+	font-family: Inconsolata;
+	font-size: 1em;
+	justify-content: center;
+	display:inline;
+	margin-left: 0.2em;
+}
+
+/* Pijlen naar rechts en links binnen carousel */
+
+main section:nth-of-type(2) > img:first-of-type {
+    z-index: 2;
+    width: 1em;
+    height: 1em;
+    top: 47%;
+    left: 2em;
+}
+
+main section:nth-of-type(2) > img:last-of-type {
+    z-index: 2;
+    width: 1em;
+    height: 1em;
+    top: 47%;
+    right: 2em;
+    left: unset;
+}
+
+

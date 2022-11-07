@@ -225,9 +225,7 @@ Wel heb ik mijn breakdown schetsen af en deze wil ik graag bespreken met Sanne. 
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ - Misschien je menu items hoger dan de andere links in je navigatie, zodat hij wanneer navigatie actief is hij dus die dingen opleest voor de andere items
 
 
   #### Muis en Toetsenbord 
@@ -237,19 +235,24 @@ Wel heb ik mijn breakdown schetsen af en deze wil ik graag bespreken met Sanne. 
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+ - Website is redelijk vergevingsgezint. 
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+- Diabetic Eye Disease - de website is goed te gebruiken, wel iets vervelender maar alles is nog te lezen 
+- Gele bril - alles is gewoon geel maar nog wel te gebruiken, bij veel witgebruik kan dit wel vervelend zijn
+- Blur/Glare - mogelijkheid om in te kunnen zoomen is belangrijk op de website, zodat je kan inzoomen waar nodig
+- Hemifield Loss - doordat alles gecentreerd is is het niet moeilijk om met deze ziekte de website te gebruiken. 
+- Central field loss - Hierdoor heb je weinig zicht in het midden. Belangrijk bij deze bril is dat je niet alles centraal in het midden zet. 
+- Low contrast - Lastig om kleuren te lezen die niet veel contrast hebben. Misschien is dark mode hiervoor de oplossing. 
+- Glaucoom - Belangrijke content centreren
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Test kleurenblindheid
+- Blurred vision - Te dunne tekst valt weg 
+- Protanopia, Deuteranopia en Tritanopia- bepaalde kleuren worden geel/rood, hij is niet vervelend zo de website
+- Achromatopia - zwart wit, doordat er weinig kleur gebruikt word is het niet zo heel lastig
 
 </details>
-
-
 
 
 

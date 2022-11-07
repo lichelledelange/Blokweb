@@ -44,27 +44,9 @@ main {
 }
 
 /* ------------------ Header --------------------- */
-/* Bron transisition menu https://makingcss.com/transition */
-header {
-	position: fixed;
-    height: 14em;
-    border-radius: 1em;
-    background-color: var(--color-background);
-    width: 100%;
-    z-index: 10000;
-	top: 0;
-	overflow: hidden;
-	-webkit-transition: all 0.5s 0s ease;
-	-moz-transition: all 0.5s 0s ease;
-	-o-transition: all 0.5s 0s ease;
-	transition: all 0.5s 0s ease;
-}
+
 
 header.open {
-	height: 37em;
-}
-
-header.openZoek {
 	height: 37em;
 }
 
@@ -77,6 +59,8 @@ header > a {
 	border-radius: 0em 0em 1em 1em; 
 	color: var(--color-header-link);
 	border: 0.2em solid green;
+    font-family: 'Inconsolata';
+    text-decoration: none;
 }
 
 header > ul:nth-of-type(1) {
@@ -120,21 +104,6 @@ button {
 	background-color: unset;
 	border-style: none;
 }
-
-header.openZoek section:nth-of-type(2){
-	top: -28em;
-}
-
-header section:nth-of-type(2){
-	display: flex;
-	padding: 0;
-	margin: 0;
-	height: auto;
-	top: -1000em;
-	background-color: var(--color-background);
-}
-
-
 
 /* ------------------ Font --------------------- */
 /* h2 {
@@ -239,126 +208,6 @@ main > section:nth-of-type(1) {
     margin-top: 15em;
 }
 
-/* ------------------ Footer  --------------------- */
-
-footer {
-	display: grid;
-	flex-direction: column;
-	margin: 1em;
-}
-
-footer ul:first-of-type li:first-of-type a img {
-	width: 23%;
-	margin: 0.5em;
-}
-
-footer ul li h2 {
-	font-size: 1.5em;
-}
-
-footer ul li img {
-	width: 100%;
-	border-radius: 1em;
-}
-
-footer ul:nth-of-type(2) li {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	text-align: center;
-	gap: 1em;
-	margin: 0.7em 0;
-}
-
-footer ul:first-of-type li:nth-of-type(3) {
-    margin: 1em 0em;
-}
-
-footer ul:nth-of-type(2) li img {
-	width: 2em;
-	border-radius: 0%;
-}
-
-footer ul:nth-of-type(3) {
-	display: flex;
-	gap: 1em;
-	margin: 1em 0em;
-}
-footer ul:nth-of-type(3) li {
-	flex-grow: 1;
-	display: flex;
-}
-
-footer ul:nth-of-type(3) li button {
-	padding: 1.2em 0.5em;
-	border-radius: 0.5em;
-	background-color: var(--color-black-highlight);
-	color: var(--color-text-footer);
-	font-family: futura-pt, sans-serif;
-	font-size: 1.1em;
-	text-transform: uppercase;
-	border-style: none;
-	width: 100%;
-}
-
-footer ul:nth-of-type(4) li {
-	padding: 0.2em;
-	font-family: futura-pt, sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-footer a:nth-of-type(12){
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 3em;
-	margin-top: 2em;
-	background-color:var(--color-black-highlight)
-}
-
-footer ul:last-of-type {
-    columns: 2;
-    text-align: center;
-}
-
-footer ul:last-of-type li a {
-    font-family: futura-pt, sans-serif;
-    text-decoration: none;
-    line-height: 1.4em;
-}
-
-footer > a:last-of-type {
-	text-decoration: none;
-	font-size: 0.8em;
-	color: var(--color-text-endoffooter);
-	width: 100%;
-	min-height: 1em;
-	text-align: center;
-	background-color: var(--color-black-highlight);
-	padding: 5px 15px 15px;
-	margin: 1em 0 0 0;
-}
-
-@media screen and (min-width: 767px) {
-	footer {
-		grid-template-columns: 1fr 1fr;
-	}
-	footer ul:nth-of-type(1) {
-		grid-row-start: 1;
-		grid-row-end: 4;
-	}
-	footer ul:nth-of-type(1) li:nth-of-type(1){
-		display: none;
-	}
-	footer ul:nth-of-type(3) {
-		grid-column-start: 2;
-	} 
-	footer ul:nth-of-type(4) {
-		grid-column-start: 2;
-	} 
-	footer > a {
-		grid-column-start: 1;
-		grid-column-end: 3;
-	}
+main > section:nth-of-type(1) ul li img{
+	
 }
