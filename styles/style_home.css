@@ -114,7 +114,6 @@ body{
 }
 
 
-
 /* ------------------ Font --------------------- */
 h2 {
 	font-family: futura-pt, sans-serif;
@@ -229,6 +228,7 @@ main section:nth-of-type(2) h3 {
     color: var(--color-text);
 	order: 2;
 	margin-top: 0.5em;
+	margin-left: 0.5em;
 }
 
 main section:nth-of-type(2) ul li a h3:nth-of-type(2) {
@@ -285,9 +285,10 @@ main section:nth-of-type(2) ul li > p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 95%;
 	border: none;
 	margin-top: 0.5em;
+	margin-left: 0.5em;
 	margin-bottom: 0.6em;
 	font-family: Inconsolata;
 	font-size: 0.9em;

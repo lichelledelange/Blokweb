@@ -43,6 +43,12 @@ main {
 	background-color: var(--color-main-bg-color);
 }
 
+h1 {
+	position: absolute;
+	left: -99999em;
+	opacity: 0;
+}
+
 /* ------------------ Header --------------------- */
 /* Bron transisition menu https://makingcss.com/transition */
 header {
