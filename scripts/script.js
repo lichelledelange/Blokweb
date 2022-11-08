@@ -1,4 +1,4 @@
-// hamburger menu 
+// hamburger menu credits aan Cesar. Ik heb deze code samen met hem geschreven 
 
 var deButton = document.querySelector("header ul:nth-of-type(1) li:nth-of-type(1) button:nth-of-type(1)");
 

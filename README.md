@@ -290,19 +290,27 @@ Test kleurenblindheid
 
 <details>
   <summary>uitwerken voor eindgesprek</summary>
+  Ik moet mijn readme nog beter bijwerken. 
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik vind dit vak ontzettend lastig en ik heb het dan ook niet afgekregen. Mede doordat ik op het begin vast liep en niet meteen 
+  om hulp heb durven vragen. Tijdens de lessen begreep ik de stof en lijkt het zo logisch, totdat ik zelf achter mijn laptop ging 
+  zitten en het maar moest uitvogelen. Na een kleine mental breakdown tijdens voortgangs gesprek 2 kon het niet zo verder gaan en heb ik wekelijks met Jeffrey gezeten. Hier heb ik ontzettend veel baat bij gehad. Ik ben helaas nog niet klaar maar ben al ontzettend blij met
+  de stappen die ik heb gezet de afgelopen tijd. Ik begin dit vak zelfs een beetje leuk te vinden...
+  Het gesprek van komende donderdag zal ik meenemen als feedback moment zodat ik dit vak tijdens
+  de herkansing kan halen. Oh en sorry Sanne ik heb mijn readme ook NOG niet volledig bijgewerkt. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Ik had mijn readme beter bij moeten houden :) 
+  Wat ik lastig vond? Alles :) Ik vindt nu voornamelijk java erg lastig. 
+  Tijdens de herkansing zal ik hier ook screenshots van bij plaatsen. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
