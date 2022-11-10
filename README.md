@@ -41,23 +41,24 @@ Lichelle de Lange
   ### Je opdracht:
   https://upfront.nl
 
+  Ik heb gekozen voor een website van Upfront, een website waar ik veel mee heb omdat ik naar de podcast van deze jongens luister en volledig achter hun missie en visie sta. Een website waar ik enthousiast over ben zal mij moeten helpen door dit vak heen te komen. Deze website lijkt redelijke makkelijk om na te maken. 
+  . 
+
   #### Screenshot(s) van de eerste pagina (small screen): 
   Upfront desktop  
   <img src="readme-images/Homepage.jpg"  alt="Upfront homepagina, desktop">
-  <img src="readme-images/Detail.jpg" alt="Upfront overzichtpagina pre workout, desktop">
 
   Upfront smallscreen
  <img src="readme-images/Upfront_klein.jpg" alt="Upfront homepagina, small screen">
- <img src="readme-images/Pre-workout.jpg" alt="Upfront detailpagina, small screen">
-
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
- 
+  Detail pagina Pre-workout Desktop
+  <img src="readme-images/Detail.jpg" alt="Upfront overzichtpagina pre workout, desktop">
+
+  Detail pagina Pre-workout smallscreen
+  <img src="readme-images/Pre-workout.jpg" alt="Upfront detailpagina, small screen">
  
 </details>
-
-
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
@@ -145,24 +146,14 @@ Home pagina
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/Upfront_klein.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele pagina homepagina : 
+<img src="readme-images/Upfront_indeling.jpg" alt="Breakdownschets homepagina">
+  
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/carousel.jpp" width="375px" alt="breakdown van een dynamisch deel - carousel van bestsellers">
+ ### de hele pagina detailpagina :
+ <img src="readme-images/Pre-workout_breakout.png" alt="Breakdownschets detailpagina">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/header.jpg" width="375px" alt="breakdown van de header. Menu, logo, inloggen,  en het winkelmandje. ">
-
-
- ### indeling website : 
-  <img src="readme-images/Upfront_indeling.jpg" width="375px" alt="Skelet van de Upfront website">
 </details>
-
-
-- Ik heb gekozen voor een website van Upfront, een website waar ik veel mee heb omdat ik naar de podcast van deze jongens luister en volledig achter hun missie en visie sta. Een website waar ik enthousiast over ben zal mij moeten helpen door dit vak heen te komen. Over het maken van de breakdown schetsen voel ik mij onzeker. Ik denk dat ik nu al de mist in ga met de indeling van de website. 
-Ik begin vol goedemoed en volgens mij gaat het wel goed. 
-
 
 ## Voortgang 1 (week 2)
 
@@ -170,28 +161,22 @@ Ik begin vol goedemoed en volgens mij gaat het wel goed.
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
- Ik heb mijn breakdown schetsen af en redelijk uitgebreid getekend. Ik heb voor tijdens de meeting vragen over mijn schetsen en of ik de indeling van de door mij gekozen website; Upfront juist heb ingedeeld. 
+ Ik heb mijn breakdown schetsen af en redelijk uitgebreid getekend. Ik heb voor tijdens de meeting vragen over mijn schetsen en of ik de indeling van de door mij gekozen website; Upfront juist heb ingedeeld. Over het maken van de breakdown schetsen voel ik mij wat onzeker. Ik denk dat ik nu al de mist in ga met de indeling van de website. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
   Nensi, Syarah, Cesar, Lindsey & Lichelle 
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
+  | Syarah      | Nensi          | Lichelle     | Cesar        | Linsey 
+  | ---         | ---            | ---          | ---          | ---
+  | Css styling | Menu styling   | breakdown    | lettertype   | Niet aanwezig 
+  |             |                |              |              |
+  
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-- Ik had nog geen code maar ik had vragen over mijn breakdownschetsen. We zijn gezamelijk door mijn website en de website van Syarah heen gelopen.
+Ik had nog geen code maar ik had vragen over mijn breakdownschetsen. We zijn gezamelijk door mijn website en de website van Syarah heen gelopen.
 Ik was goed opweg, hier en daar wat aanpassingen. De rest had zijn/haar html al gemaakt, ik helaas nog niet. 
-
 </details>
-
-
 
 
 
@@ -202,24 +187,22 @@ Ik was goed opweg, hier en daar wat aanpassingen. De rest had zijn/haar html al 
 
   ### Stand van zaken
   Het ging niet goed. Ik struggle ontzettend met de code. De HTML heb ik redelijk opgezet, maar het lukt niet met de css. 
-  Ik heb alles verwijderd en ga opnieuw beginnen. In vergelijking tot de rest loop ik zo ver achter. In het voortgang gesprek met mijn groepje
-  en Jeffrey breek ik.. Beetje genânt maar ik had mijn emoties niet meer in de hand op dat moment. Ik stop veel uren in dit vak, en tijdens de lessen lijkt alles zo logisch maar zodra ik het zelf moet doen en achter die laptop ga zitten.. ERROR 
+  Ik heb alles verwijderd en ga opnieuw beginnen. 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+| Nensi            | Lichelle           | Syarah       | Cesar            | Linsey           |
+  | ---            | ---                | ---          | ---              | ---              |
+  | Menu styling   | Geen vragen        | Css Styling  | Lettertype       | Geen vragen      |
+  | Filter knop    |                    |              |                  |                  |
 
 
-  | student 1  
-ik ben zelf student 1. Ik ben nog niet begonnen met coderen. 
-Wel heb ik mijn breakdown schetsen af en deze wil ik graag bespreken met Sanne. Ik wil weten of ik de structuur van de door mij gekozen website begrijp. 
 
   ### Verslag van meeting
-  
+ In vergelijking tot de rest loop ik zo ver achter. In het voortgang gesprek met mijn groepje en Jeffrey breek ik. Beetje genânt maar ik had mijn emoties niet helemaal meer in de hand op dat moment. Ik stop veel uren in dit vak en tijdens de lessen lijkt alles zo logisch maar zodra ik het zelf moet doen en achter die laptop ga zitten.
+
+ Ik heb al zo lang niets met code gedaan dat het voor mijn gevoel volledig uit mijn geheugen is gewist. Ik had al wat eerder aan de bel moeten trekken. Ik kom er zelf niet uit. 
 
 </details>
-
-
-
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
@@ -271,25 +254,27 @@ Test kleurenblindheid
   Het gaat stukken beter. Ik ben er nog niet maar er beginnen wat kwartjes te vallen. 
   Met dank aan Jeffrey die de tijd heeft genomen om wekelijks met mij te zitten en te kijken naar mijn code. Ik ben al ver met de eerste pagina en ben begonnen aan mijn 2e pagina. Waar ik over wil vragen of er dingen uitgehaald kunnen worden. Ik heb mijn website onderschat, ik dacht dat deze iets simpeler zou zijn als dat deze eigenlijk is. 
 
+  De basis css dingen lukken we inmiddels wel, al ben ik hier wel lang mee bezig. Ik zoek veel op. 
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
 - Ik wil graag bespreken of ik mijn detailpagina wat kan indunnen of een andere pagina mag namaken omdat ik de detail pagina nogal complex vindt. 
 - Ook wil ik het hebben over mijn menu, waar plaats ik de inhoud van mijn navigatie in mijn html?  
 
+  | Nensi                 | Lichelle                   | Syarah            | Cesar                    |
+  | ---                   | ---                        | ---               | ---                      |
+  | Scrollen op homepage  | Side menu en detail pagina | CSS styling menu  | HTML en dropdown list    |
+  |                       |                            | detail pagina     |                          |
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+Ik was pas als laatste aan de beurt. Ik had een vraag over mijn hambuger-menu en over een dropdown.  
+<img src="readme-images/Detail" alt="">
+<img src="readme-images/Detail2" alt="">
+https://codepen.io/shooft/pen/GRGgeKx
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+Ik denk dat ik met de codepen een stuk verder kom.
 </details>
-
-
-
 
 
 ## Eindgesprek (week 5)
@@ -307,22 +292,26 @@ Test kleurenblindheid
   om hulp heb durven vragen. Tijdens de lessen begreep ik de stof en lijkt het zo logisch, totdat ik zelf achter mijn laptop ging 
   zitten en het maar moest uitvogelen. Na een kleine mental breakdown tijdens voortgangs gesprek 2 kon het niet zo verder gaan en heb ik wekelijks met Jeffrey gezeten. Hier heb ik ontzettend veel baat bij gehad. Ik ben helaas nog niet klaar maar ben al ontzettend blij met
   de stappen die ik heb gezet de afgelopen tijd. Ik begin dit vak zelfs een beetje leuk te vinden...
-  Het gesprek van komende donderdag zal ik meenemen als feedback moment zodat ik dit vak tijdens
-  de herkansing kan halen. Oh en sorry Sanne ik heb mijn readme ook NOG niet volledig bijgewerkt. 
+  Het gesprek van komende donderdag zal ik meenemen als feedback moment zodat ik dit vak tijdens de herkansing kan halen. 
+
+  
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Ik had mijn readme beter bij moeten houden :) 
-  Wat ik lastig vond? Alles :) Ik vindt nu voornamelijk java erg lastig. 
-  Tijdens de herkansing zal ik hier ook screenshots van bij plaatsen. 
+  Ik had mijn readme beter bij moeten houden :) Wat ik lastig vond? Alles :) Ik vind Javascript erg lastig. 
+  Css vind ik nogsteeds lastig. De basic heb ik nu wel redelijk onder de knie maar de lastige dingen heb ik hulp bij gehad. 
+  Zonder de hulp van Jeffrey en klasgenootjes zou ik nooit zo ver gekomen zijn. Ik heb veel van hen geleerd. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Waar ik voornamelijk tegen aan liep was het responsive maken van mijn website en daarbij het herindelen van de pagina - zie footer. 
+
+  Het hamburger menu schuift open met behulp van Javascript. Dit had mij zelf niet gelukt. Ik heb hierbij ook hulp gehad. 
+
+  Doordat ik pas later op gang ben gekomen, ben ik minder ver gekomen en is de website niet 100% afgerond. Ik had eerder aan de bel moeten trekken, dan had ik verder gekomen. Dat is een wijze les geweest. 
+
+
 </details>
-
-
-
 
 
 ## Bronnenlijst
@@ -332,8 +321,10 @@ Test kleurenblindheid
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Bron: transisition menu https://makingcss.com/transition 
+  2. Jeffrey 
+  3. ik heb mijn bronnen niet zo netjes bij gehouden. Ik heb veel gekeken naar css-tricks en w3-schools. 
+  4. https://codepen.io/shooft/pen/GRGgeKx
+  5. 
 
 </details>
