@@ -42,12 +42,18 @@ Lichelle de Lange
   https://upfront.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/Homepage.jpg" width="375px" alt="Upfront Homepage">
+  Upfront desktop  
+  <img src="readme-images/Homepage.jpg"  alt="Upfront homepagina, desktop">
+  <img src="readme-images/Detail.jpg" alt="Upfront overzichtpagina pre workout, desktop">
+
+  Upfront smallscreen
+ <img src="readme-images/Upfront_klein.jpg" alt="Upfront homepagina, small screen">
+ <img src="readme-images/Pre-workout.jpg" alt="Upfront detailpagina, small screen">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/Detail.jpg" width="375px" alt="Upfront Univeristy page">
+ 
  
 </details>
 
