@@ -334,3 +334,11 @@ main section:nth-of-type(2) > img:last-of-type {
 }
 
 
+header.openZoek section:nth-of-type(2) > input {
+    background-color: unset;
+    border: 1px solid rgb(255,255,255, .2);
+    border-radius: 1em;
+    padding: 1em;
+    width: 92%;
+    align-self: center;
+}

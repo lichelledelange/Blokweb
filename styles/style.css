@@ -71,7 +71,7 @@ header.open {
 }
 
 header.openZoek {
-	height: 37em;
+	height: 19em;
 }
 
 header > a {
@@ -80,6 +80,7 @@ header > a {
 	align-items: center;
 	height: 3em;
 	background-color: white;
+	text-decoration: none;
 	border-radius: 0em 0em 1em 1em; 
 	color: var(--color-header-link);
 	border: 0.2em solid green;
@@ -260,6 +261,7 @@ footer ul:first-of-type li:first-of-type a img {
 
 footer ul li h2 {
 	font-size: 1.5em;
+	color: var(--color-text-carrousel);
 }
 
 footer ul li img {
@@ -332,9 +334,11 @@ footer ul:last-of-type li a {
     font-family: futura-pt, sans-serif;
     text-decoration: none;
     line-height: 1.4em;
+	color: var(--color-text-carrousel);
 }
 
 footer > a:last-of-type {
+	font-family: Inconsolata;
 	text-decoration: none;
 	font-size: 0.8em;
 	color: var(--color-text-endoffooter);
@@ -347,6 +351,23 @@ footer > a:last-of-type {
 }
 
 @media screen and (min-width: 767px) {
+	nav ul {
+		justify-content: center;
+	}
+
+	section {
+		width: 45em;
+		margin:0;
+	}
+	main > section:first-of-type{
+		margin-top:15em;;
+	}
+	main > section:nth-of-type(2){
+		padding:1em 0;
+	}
+	main > section:nth-of-type(2n){
+		margin:1em 0em;
+	}
 	footer {
 		grid-template-columns: 1fr 1fr;
 	}

@@ -6,377 +6,478 @@
   }
    */
 
-   /* Alle content begint bovenaan */
-   * {
+/* Alle content begint bovenaan */
+* {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	box-sizing: border-box;
-}
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
+  }
+  
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#242424;
-	--color-header-link:#000; 
-	--color-main-bg-color:#fff;
-	--color-black-highlight:#0f0e0b;
-	--color-text-footer:#fff;
-	--color-text-endoffooter:#808080;
-	--color-text-carrousel:#e2e2e2;
-	--color-border-carousel:#f0ebe1;
-	--color-background-detail-pagina:#f2f2f2;
-	--color-border-detail:#007aff;
-}
-
-/* ------------------ Img --------------------- */
-
-img {
+	--color-text: #111;
+	--color-background: #242424;
+	--color-header-link: #000;
+	--color-main-bg-color: #fff;
+	--color-black-highlight: #0f0e0b;
+	--color-text-footer: #fff;
+	--color-text-endoffooter: #808080;
+	--color-text-carrousel: #e2e2e2;
+	--color-border-carousel: #f0ebe1;
+	--color-background-detail-pagina: #f2f2f2;
+	--color-border-detail: #007aff;
+  }
+  
+  /* ------------------ Img --------------------- */
+  
+  img {
 	height: auto;
 	width: 3em;
-}
-
-/* ------------------ Body --------------------- */
-body {
-	background-color: var(--color-background-detail-pagina);
-}
-
-
-/* ------------------ Header --------------------- */
-
-
-header.open {
+  }
+  
+  /* ------------------ Body --------------------- */
+  body {
+	background-color: var(--color-background);
+	}
+  
+  /* ------------------ Header --------------------- */
+  
+  header.open {
 	height: 37em;
-}
-
-header > a {
+  }
+  
+  header > a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 3em;
 	background-color: white;
-	border-radius: 0em 0em 1em 1em; 
+	border-radius: 0em 0em 1em 1em;
 	color: var(--color-header-link);
 	border: 0.2em solid green;
-    font-family: 'Inconsolata';
-    text-decoration: none;
-}
-
-header > ul:nth-of-type(1) {
-	display:flex;
+	font-family: "Inconsolata";
+	text-decoration: none;
+  }
+  
+  header > ul:nth-of-type(1) {
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-header > ul:nth-of-type(1) img {
+  }
+  
+  header > ul:nth-of-type(1) img {
 	height: auto;
 	width: 1.8em;
 	margin: 1em;
-}
-
-header > ul:nth-of-type(1) li:nth-of-type(2) img {
+  }
+  
+  header > ul:nth-of-type(1) li:nth-of-type(2) img {
 	width: 3em;
-	margin-top: .5em;
-}
-header > ul:nth-of-type(1) li:nth-of-type(3) button img {
+	margin-top: 0.5em;
+  }
+  header > ul:nth-of-type(1) li:nth-of-type(3) button img {
 	width: 2.35em;
-}
-
-header.open section:nth-of-type(1){
+  }
+  
+  header.open section:nth-of-type(1) {
 	top: -7em;
-}
-
-header section:nth-of-type(1){
+  }
+  
+  header section:nth-of-type(1) {
 	padding: 0;
 	margin: 0;
 	height: auto;
 	top: -1000em;
 	background-color: var(--color-background);
-}
-
-header section:nth-of-type(1) ul {
+  }
+  
+  header section:nth-of-type(1) ul {
 	padding-left: 1em;
-
-}
-
-button {
+  }
+  
+  button {
 	background-color: unset;
 	border-style: none;
-}
-
-/* ------------------ Font --------------------- */
-/* h2 {
-	font-family: futura-pt, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	color: white;
-}
-
-
-h3, h4 {
-	font-family: futura-pt, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	color: white;
-} */
-
-/* ------------------ hamburger menu --------------------- */
-
- header section ul li {
+  }
+  
+  /* ------------------ Font --------------------- */
+  /* h2 {
+	  font-family: futura-pt, sans-serif;
+	  font-weight: 700;
+	  font-style: normal;
+	  color: white;
+  }
+  
+  
+  h3, h4 {
+	  font-family: futura-pt, sans-serif;
+	  font-weight: 700;
+	  font-style: normal;
+	  color: white;
+  } */
+  
+  /* ------------------ hamburger menu --------------------- */
+  
+  header section ul li {
 	display: flex;
 	position: relative;
 	justify-content: flex-start;
 	background-color: var(--color-background);
 	opacity: 1;
 	transform: translateY(0);
-}
-
-/* tekst in menu  */
-header section ul li a{
+  }
+  
+  /* tekst in menu  */
+  header section ul li a {
 	font-size: 1.25em;
-	margin:0.3em 0;
-    font-family: Inconsolata;
-    color: var(--color-text-carrousel);
+	margin: 0.3em 0;
+	font-family: Inconsolata;
+	color: var(--color-text-carrousel);
 	text-decoration: none;
-}
-
-header section ul li button {
-	position:absolute;
-
-}
-
-/* ------------------ Navigatie carrousel met underlining --------------------- */
-/* Bron: samen met Jeffrey gemaakt :) */
-
-nav ul {
-    background-color: var(--color-text-carrousel);
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;
-    text-align: center;
-    gap: 1em;
-    padding: 1em 0;
-    border-radius: 1em;
-}
-
-nav ul li {
-    width: 5em;
-    flex-shrink: 0;
+  }
+  
+  header section ul li button {
+	position: absolute;
+  }
+  
+  /* ------------------ Navigatie carrousel met underlining --------------------- */
+  /* Bron: samen met Jeffrey gemaakt :) */
+  
+  nav ul {
+	background-color: var(--color-text-carrousel);
+	display: flex;
+	flex-direction: row;
+	overflow-x: scroll;
+	text-align: center;
+	gap: 1em;
+	padding: 1em 0;
+	border-radius: 1em;
+  }
+  
+  nav ul li {
+	width: 5em;
+	flex-shrink: 0;
 	position: relative;
-}
-
-
-ul ul li a{
-	position:relative;
-	display:inline-block;
-	text-decoration:none;
-}
-
-a::after{
+  }
+  
+  ul ul li a {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+  }
+  
+  a::after {
 	content: "";
 	position: absolute;
 	left: 0;
 	right: 0;
 	top: 100%;
-	height: .2em;
+	height: 0.2em;
 	background-color: currentColor;
-
+  
 	transform-origin: left;
 	transform: scaleX(0%);
-	transition: transform .3s;
-}
-
-a:hover::after {
-	transform:scaleX(100%);
+	transition: transform 0.3s;
+  }
+  
+  a:hover::after {
+	transform: scaleX(100%);
 	transition: right;
-}
-
-nav ul li a {
-    font-family: 'futura-pt';
-    text-decoration: none;
-    color: var(--color-text)
-}
-
-/* ------------------ Carrousel product  --------------------- */
-main{
-    display: block;
-}
-
-main > section:nth-of-type(1) {
-    margin-top: 15em;
-}
-
-main > section:nth-of-type(1) ul li img {
+  }
+  
+  nav ul li a {
+	font-family: "futura-pt";
+	text-decoration: none;
+	color: var(--color-text);
+  }
+  
+  /* ------------------ Carrousel product  --------------------- */
+  main {
+	display: block;
+  }
+  
+  main > section:nth-of-type(1) {
+	margin-top: 15em;
+	}
+  
+  main > section:nth-of-type(1) ul li img {
 	display: flex;
 	flex-direction: row;
 	height: 25em;
-	width: 20em;	
-}
-
-/*------------------ Styling carousel  ---------------------  */
-
-main section{
+	width: 20em;
+  }
+  
+  /*------------------ Styling carousel  ---------------------  */
+  
+  main section {
 	background-color: var(--color-background-detail-pagina);
-
-}
-
-section > ul:nth-of-type(1) {
-    display: flex;
-    flex-direction: column;
-}
-
-main section ul li:first-of-type {
-    order: 2;
-}
-
-main section ul li:nth-of-type(2) {
-    order: 3;
-}
-
-
-main section ul li {
+  }
+  
+  section > ul:nth-of-type(1) {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  main section ul li:first-of-type {
+	order: 2;
+  }
+  
+  main section ul li:nth-of-type(2) {
+	order: 3;
+  }
+  
+  main section ul li {
 	display: flex;
 	overflow: scroll;
-}
-
-main section ul:nth-of-type(1) li:nth-of-type(3) img{
+  }
+  
+  main section ul:nth-of-type(1) li:nth-of-type(3) img {
 	order: -2;
-}
-
-main section ul li h2 {
-		font-family: 'futura-pt';
-}
-
-main section ul li h3{
-	font-family: 'futura-pt';
-}
-
-main section ul:nth-of-type(2) li:nth-of-type(1) p {
+  }
+  
+  main section ul li h2 {
+	font-family: "futura-pt";
+  }
+  
+  main section ul li h3 {
+	font-family: "futura-pt";
+  }
+  
+  main section ul:nth-of-type(2) li:nth-of-type(1) p {
 	display: flex;
 	flex-direction: row;
-	font-family: 'Inconsolata';
+	font-family: "Inconsolata";
 	margin: 0.8em;
-}
-
-main section ul:nth-of-type(2) li:nth-of-type(1) img {
+  }
+  
+  main section ul:nth-of-type(2) li:nth-of-type(1) img {
 	display: flex;
 	flex-direction: row;
 	margin-top: 0.8em;
 	height: 1em;
 	width: 1em;
-} 
-
-main section ul:nth-of-type(2)li:nth-of-type(1) img:nth-of-type(1){
+  }
+  
+  main section ul:nth-of-type(2)li:nth-of-type(1) img:nth-of-type(1) {
 	margin-left: 0.5em;
-}
-
-main section ul:nth-of-type(3) li img{
+  }
+  
+  main section ul:nth-of-type(3) li img {
 	display: flex;
 	flex-direction: row;
 	height: 1.5em;
 	width: 1.5em;
 	margin: 0.4em;
-}
-
-main section p {
-	font-family: 'Inconsolata';
+  }
+  
+  main section p {
+	font-family: "Inconsolata";
 	margin: 0.5em;
-}
-
-main section ul:nth-of-type(4) li button {
-	font-family: 'Inconsolata';
+  }
+  
+  main section ul:nth-of-type(4) li button {
+	font-family: "Inconsolata";
 	font-size: 1.12em;
-}
-
-main section ul:nth-of-type(4) li:nth-of-type(1) button {
+  }
+  
+  main section ul:nth-of-type(4) li:nth-of-type(1) button {
 	display: flex;
 	justify-content: space-between;
 	padding: 1em 0.5em;
-    border: 0.15em solid black;
-    border-radius: 1em;
+	border: 0.15em solid black;
+	border-radius: 1em;
 	background-color: var(--color-main-bg-color);
 	width: 100%;
-    font-family: 'Inconsolata';
-	margin: 0.5em;
-}
-
-main section ul:nth-of-type(4) li:nth-of-type(2) button {
+	font-family: "Inconsolata";
+	/* margin: 0.5em; */
+	}
+  
+  main section ul:nth-of-type(4) li:nth-of-type(2) button {
 	display: flex;
 	justify-content: space-between;
 	padding: 1em 0.5em;
-    border: 0.15em solid black;
-    border-radius: 1em;
+	border: 0.15em solid black;
+	border-radius: 1em;
 	background-color: var(--color-main-bg-color);
 	width: 100%;
-    font-family: 'Inconsolata';
-	margin: 0.5em;
-}
-
-main section ul:nth-of-type(4) li:nth-of-type(3) button {
+	font-family: "Inconsolata";
+	margin: .5em 0em;
+	}
+  
+  main section ul:nth-of-type(4) li:nth-of-type(3) button {
 	display: flex;
 	justify-content: space-between;
 	padding: 1em 0.5em;
-    border: 0.15em solid black;
-    border-radius: 1em;
+	border: 0.15em solid black;
+	border-radius: 1em;
 	background-color: var(--color-main-bg-color);
 	width: 100%;
-    font-family: 'Inconsolata';
-	margin: 0.5em;
-}
-
-main section ul:nth-of-type(4) li:nth-of-type(4) button {
+	font-family: "Inconsolata";
+	margin: .5em 0em;
+	}
+  
+  main section ul:nth-of-type(4) li:nth-of-type(4) button {
 	display: flex;
 	border: 0.15em;
 	justify-content: center;
 	border-radius: 1em;
 	background-color: var(--color-main-bg-color);
 	width: 100%;
-	font-family: 'Inconsolata';
-	margin: 0.5em;
+	font-family: "Inconsolata";
+	margin: .5em 0em;
 	align-items: center;
-}
-
-main section ul:nth-of-type(4) li:nth-of-type(5) button {
+	}
+  
+  main section ul:nth-of-type(4) li:nth-of-type(5) button {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 1em 0.5em;
-    border: 0.15em solid black;
-    border-radius: 1em;
+	border: 0.15em solid black;
+	border-radius: 1em;
 	background-color: var(--color-black-highlight);
 	color: var(--color-background-detail-pagina);
 	width: 100%;
-    font-family: 'futura-pt';
+	font-family: "futura-pt";
 	text-transform: uppercase;
-	margin: 0.5em;
-}
-
-img {
-    padding: 1;
-}
-
-main section ul:nth-of-type(4) li:nth-of-type(4) {
+	margin: .5em 0em .5em .5em;
+	}
+  
+  img {
+	padding: 1;
+  }
+  
+  main section ul:nth-of-type(4) li:nth-of-type(4) {
 	width: 30%;
+  }
+  
+  main section ul:nth-of-type(4) {
+	flex-wrap: wrap;
+	display: flex;
+  }
+  
+  main section ul:nth-of-type(4) li {
+	order: unset;
+	width: 100%;
+  }
+  
+  main section ul:nth-of-type(4) li:nth-of-type(5) {
+	width: 70%;
+  }
+  /* weghalen scrolbar */
+  
+  ::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Beschrijving pre workout */
+  main section:nth-of-type(n + 2) {
+	background-color: white;
+	margin: 1em;
+	padding: 1em;
+	border-radius: 1em;
+  }
+  
+  main {
+	background-color: var(--color-background-detail-pagina);
+  }
+  
+  main section:nth-of-type(2) {
+	margin-top: 4em;
+  }
+  
+  main section:nth-of-type(2) h2 {
+	position: relative;
+	top: -2.5em;
+	left: -0.7em;
+	margin-bottom: -1.5em;
+  }
+  
+  main section:nth-of-type(n + 2) p {
+	font-size: 1.15em;
+	line-height: 1.15;
+  }
+  
+  p > img {
+	width: 1em;
+	height: 1em;
+	margin: 0.5em;
+  }
+  
+  main section:nth-of-type(2n) p:nth-of-type(n + 3)::before {
+	content: "";
+	height: 4em;
+	min-width: 1em;
+	background-image: url("../readme-images/detail/+.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 0.5em;
+  }
+  
+  main section:nth-of-type(2n) p:nth-of-type(n + 3) {
+	display: flex;
+  }
+  
+  h2 {
+	font-family: futura-pt;
+  }
+  
+  main > h2 {
+	margin-left: 1em;
+  }
+
+section:first-of-type {
+    padding: 1em;
 }
 
-main section ul:nth-of-type(4) {
-    flex-wrap: wrap;
-    display: flex;
+main section ul li:nth-of-type(3) {
+    border-radius: 1em;
 }
-
-main section ul:nth-of-type(4) li {
-    order: unset;
-    width: 100%;
-}
-
-main section ul:nth-of-type(4) li:nth-of-type(5) {
-    width: 70%;
-}
-
-
-
-
+  
+  @media screen and (min-width: 767px) {
+	main {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
+	main > section {
+	  width: 100%;
+	}
+	main > section:nth-of-type(1) > *:nth-of-type(n + 2) {
+	  width: 45em;
+	}
+	main > section:nth-of-type(n + 2) {
+	  width: 45em;
+	}
+	section > ul:first-of-type li:nth-of-type(1),
+	section > ul:first-of-type li:nth-of-type(2) {
+	  width: 45em;
+	  align-self: center;
+	}
+  
+	section > ul:nth-of-type(1) {
+	}
+  
+	main > section:nth-of-type(1) > p {
+	  width: 45em;
+	  text-align: left;
+	}
+  
+	main > section:nth-of-type(1) > ul:nth-of-type(4) li button {
+	  margin: 0;
+	}
+  
+	main > section:nth-of-type(1) {
+	  align-items: center;
+	  text-align: -webkit-center;
+	}
+  
+	main > section:nth-of-type(1) > ul:nth-of-type(4) li {
+	  padding: 0.5em 0em;
+	}
+  }
+  
